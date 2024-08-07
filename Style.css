@@ -1,0 +1,61 @@
+body{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 3px;
+}
+.parent{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+}
+.child1{
+    margin-left: 50px;
+}
+.child2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    font-size: 21px;
+    color: rgb(110, 109, 109);/* Adds space between logo and menu */
+}
+.child3{
+    display:flex;
+    justify-content: center;
+
+}
+.child4{
+    display:flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 500;
+    font-style: bold;
+    color: rgb(70, 70, 70);
+    font-family:'inter,serif';
+
+}
+.child5{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 300;
+    
+    color: rgb(58, 58, 58);
+}
+.child6 {
+    display:flex;
+    justify-content: center;
+
+}
+.child6>button {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    width : 210px;
+    height:60px;
+    font-style: bold;
+
+}
+
